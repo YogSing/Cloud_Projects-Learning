@@ -5,6 +5,9 @@ Change directory:cd
 List content of directory: Ls 
 Lists hidden folder/files: Ls -a
 Detailed listing including hidden file: ls-la
+- **List content of directory**: `ls`
+- **Lists hidden files/folders**: `ls -a`
+- **Detailed listing including hidden files**: `ls -la`
 Search for hidden files(hidden file starts with .): find . -name ".*"
 Search files by name: find /path -name "pattern"
 List files with sizes: ls -lh
