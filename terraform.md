@@ -65,8 +65,18 @@ Most common and important Terraform commands to deploy resources
      ```
      **Explanation**: This command shows a list of providers that Terraform needs to work with in the current configuration. It’s useful for understanding which provider plugins will be installed when you run terraform 
        init.
-    
-
+12. Formats the Terraform configuration files.
+     ```sh
+      terraform fmt
+     ```
+      **Explanation**: This command automatically formats Terraform configuration files to conform to Terraform’s style guide. It’s helpful for maintaining clean and consistent code.
+13. Displays the version of Terraform.
+     ```sh
+      terraform version
+     ```
+     **Explanation**:This command will display the currently installed version of Terraform, including any additional information about the system.
+   
+     
 
 
 
