@@ -1,4 +1,5 @@
-Useful linux cmds
+#Useful linux cmds
+```bash
 Print current working Directory:PWD 
 Change directory:cd 
 List content of directory: Ls 
