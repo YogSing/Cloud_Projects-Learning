@@ -36,8 +36,26 @@ Most common and important Terraform commands to deploy resources
     ```sh
    terraform apply -refresh-only
    ```
-   **Explanation**: When you use the `-refresh-only` flag, Terraform will only refresh the state of your resources by querying the current state of your infrastructure, but it will not create, update, or destroy any resources. Essentially, it updates the Terraform state to match the real-world infrastructure, but it won't apply any changes defined in the configuraton files.
+   **Explanation**: When you use the `-refresh-only` flag, Terraform will only refresh the state of your resources by querying the current state of your infrastructure, but it will not create, update, or destroy any 
+    resources. Essentially, it updates the Terraform state to match the real-world infrastructure, but it won't apply any changes defined in the configuraton files.
+8. Displays output values defined in the Terraform configuration:
+   ```sh
+   terraform output
+   ```
+   **Explanation**: This command is used to display the outputs defined in your Terraform configurations (usually in output blocks). It's useful to retrieve the values (such as IP addresses, instance IDs, etc.) that 
+     Terraform outputs after applying the configuration.
+9. Displays the current state or plan:
+    ```sh
+   terraform show
+   ```
+   **Explanation**: This command provides human-readable output from a state or plan file.
    
+10. Manages Terraform's state file:
+       ```sh
+      terraform state 
+      ```
+      **Explanation**: This set of commands allows you to interact directly with Terraform’s state file. You can use it to move resources between states, list resources, or remove resources from the state file.
+      
     
 
 
