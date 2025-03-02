@@ -6,7 +6,7 @@
 
 2. **Print current working Directory**:`PWD`
 
-3. **Change directory**:cd 
+3. **Change directory**:`cd` 
 
 4. **List content of directory**: `ls`
 
