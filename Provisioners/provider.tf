@@ -17,11 +17,11 @@ terraform {
 
 provider "azurerm" {
   features {}
-  subscription_id = "ddd46a73-d9f0-4223-a18d-1dd4c4b8c68c"
+  
 
 }
 
 provider "azapi" {
-  subscription_id = "ddd46a73-d9f0-4223-a18d-1dd4c4b8c68c"
+ 
 
 }
