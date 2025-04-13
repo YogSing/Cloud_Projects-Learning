@@ -1,0 +1,6 @@
+## Azure Policy with Terraform
+
+-
+-
+-
+-
