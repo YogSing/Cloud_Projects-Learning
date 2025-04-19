@@ -8,6 +8,8 @@
 -  `stress_cms.sh`: This is used to generate fake stress on the machine. 
 
 ## Screenshot of fired alerts and email notification triggered. 
+ ![image]()
+
 
 
 
