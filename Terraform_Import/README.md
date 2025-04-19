@@ -6,8 +6,9 @@
 ## Screenshot of before and after TF Import run CMD. 
 - Resource created via ClickOps  
 ![clickops_resources_on_azure](https://github.com/user-attachments/assets/8a605aab-ab8e-4358-adf2-56681027fd9f)
-- Created resources in the main.tf file with the same names and 3 to add  
-![Show_resources_to_add](https://github.com/user-attachments/assets/eb0247af-4a1f-468c-a676-0177c3d53b49)
+- Created resources in the main.tf file with the same names and 3 to add
+  
+  ![Show_resources_to_add](https://github.com/user-attachments/assets/eb0247af-4a1f-468c-a676-0177c3d53b49)
 - Ran Terraform import command with resource ID.  
 ![Import_tf_resouces_to state file](https://github.com/user-attachments/assets/2300d319-cda3-4e47-b637-160caf2e4e44)
 - All resources imported in the tfstate file, and no changes to infrastructure.  
